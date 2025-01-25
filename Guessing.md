@@ -1,4 +1,4 @@
-    # Random Number Guessing Game Flowchart
+# Random Number Guessing Game Flowchart
 
 ```mermaid
 flowchart TD
@@ -11,7 +11,6 @@ flowchart TD
     CompareGuess -->|No, Too High| TooHigh[_Oops!_ **Too High!** Try a another number.]
     CompareGuess -->|No, Too Low| TooLow[_Ooo No!_ **Too Low!** Try another number.]
     CompareGuess -->|Yes| Correct[Congratulations! You guessed it!]
-    CompareGuess -->|Yes| Correct[_**Congratulations!**_ You guessed it!]
     TooHigh --> InputGuess
     TooLow --> InputGuess
     Correct --> End([Correct! Well Done! Game Over!])
